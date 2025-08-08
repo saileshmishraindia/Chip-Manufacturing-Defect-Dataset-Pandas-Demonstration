@@ -64,7 +64,7 @@ df['Test_Date'] = pd.to_datetime(df['Test_Date'])
 daily_yield = df.groupby('Test_Date')['Test_Result'].apply(lambda x: (x=='PASS').mean()*100)
 ```
 
-## 6. Visulaization Dashboard Architecture
+## 6. Visualization Dashboard Architecture
 
 <img width="1920" height="1080" alt="Screenshot (1821)" src="https://github.com/user-attachments/assets/59063f3b-3e00-434a-a08f-129911e392d2" />
 
