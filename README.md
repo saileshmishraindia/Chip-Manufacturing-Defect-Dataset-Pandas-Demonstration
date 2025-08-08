@@ -68,6 +68,12 @@ daily_yield = df.groupby('Test_Date')['Test_Result'].apply(lambda x: (x=='PASS')
 
 <img width="1920" height="1080" alt="Screenshot (1821)" src="https://github.com/user-attachments/assets/59063f3b-3e00-434a-a08f-129911e392d2" />
 
+- With this setup, we can:
+
+  - Compare multiple views at once instead of jumping between plots.
+  - Instantly spot defect patterns and yield trends.
+  - Easily showcase results to your team in a single snapshot.
+
 | Plot | Description                          |
 | ---- | ------------------------------------ |
 | 1  | Top 3 defects (Bar Chart)            |
